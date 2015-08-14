@@ -8,7 +8,6 @@ class UsersController < ApplicationController
 		user = User.create(
 			name: params[:name],
 			email: params[:email],
-			phone_number: params[:phone_number],
 			password: params[:password],
 			password_confirmation: params[:password_confirmation]
 			)
