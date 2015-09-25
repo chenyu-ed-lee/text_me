@@ -14,7 +14,7 @@
  *= require_self
  */
 .navbar {
-	background-color: #FF6961;
+	background-color: #5BC0DE;
 	padding: 8px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .btn {
-	background-color: #FF6961;
+	background-color: #5BC0DE;
 	color: #ffffff;
 }
 
