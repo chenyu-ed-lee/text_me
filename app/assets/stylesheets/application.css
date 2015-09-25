@@ -30,3 +30,7 @@
 #signup, #brand, #login {
 	color: #ffffff;
 }
+
+#logo {
+	background-image: image-url('message.png');
+}
