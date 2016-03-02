@@ -15,7 +15,12 @@
  */
 .navbar {
 	background-color: #5BC0DE;
-	padding: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+body {
+	padding-top: 70px;
 }
 
 .navbar-brand {
