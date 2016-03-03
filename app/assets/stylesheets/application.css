@@ -36,6 +36,16 @@ body {
 	color: #ffffff;
 }
 
-/*#logo {
-	background-image: image-url('message.png');
-}*/
+@media screen and (max-width: 600px) {
+	img {
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	img {
+		width: 250px;
+	}
+}
+
+
