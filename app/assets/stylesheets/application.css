@@ -19,10 +19,6 @@
 	padding-bottom: 8px;
 }
 
-body {
-	padding-top: 70px;
-}
-
 .navbar-brand {
 	font-size: 30px;
 }
@@ -36,16 +32,6 @@ body {
 	color: #ffffff;
 }
 
-@media screen and (max-width: 600px) {
-	img {
-		width: 350px;
-	}
-}
 
-@media screen and (max-width: 480px) {
-	img {
-		width: 250px;
-	}
-}
 
 
