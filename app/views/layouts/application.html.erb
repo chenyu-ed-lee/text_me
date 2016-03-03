@@ -10,6 +10,23 @@
 	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 	<%= csrf_meta_tags %>
 	<%= favicon_link_tag 'favicon.ico' %>
+	<style type="text/css">
+		@media screen and (max-width: 600px) {
+			img {
+				width: 350px;
+			}
+		}
+
+		@media screen and (max-width: 480px) {
+			img {
+				width: 250px;
+			}
+		}
+
+		body {
+			padding-top: 70px;
+		}
+	</style>
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
