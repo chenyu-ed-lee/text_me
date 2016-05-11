@@ -11,7 +11,7 @@ class TextsController < ApplicationController
 		message = client.account.messages.create(
 			:from => '+16506845087',
 			:to => '+1' + params[:to],
-			:body => 'Hey ' + params[:name] + ', ' + params[:message]
+			:body => 'Hey ' + params[:name] + ', ' + params[:message] + ' -Sent from TextMe-'
 			)
 		redirect_to "/users/#{user.id}"
 	end
